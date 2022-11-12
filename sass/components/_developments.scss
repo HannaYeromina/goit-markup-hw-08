@@ -1,0 +1,48 @@
+.developments {
+    padding: 94px 0;
+}
+.developments__title {
+    margin-bottom:  50px;
+}
+.second-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.developments-card {
+    display: flex;
+    position: relative;
+}
+.developments-card__list {
+    width: 370px;
+    margin-right: 30px;
+
+&:last-child{
+    margin-right: 0;
+    }
+}
+.developments-card__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.developments-card__text {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    background-color: $bchero-color;
+    color: $bg-color;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}

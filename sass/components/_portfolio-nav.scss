@@ -1,0 +1,41 @@
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfolio-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.portfolio-nav__list {
+    margin-right: 8px;
+
+&:last-child {
+    margin-right: 0px;
+    }
+}
+.portfolio-nav__button {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $text-color;
+    background-color: $bcben-color;
+    box-sizing: 0;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+    color: $bg-color;
+    background-color: $color-hover;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+&:focus {
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}

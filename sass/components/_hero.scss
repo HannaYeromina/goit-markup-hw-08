@@ -1,0 +1,41 @@
+.hero {
+    background-color:$bchero-color ;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), 
+        url(../images/hero.jpg);
+    max-width: 1600px;
+    height: 600px;
+    margin: 0px auto;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color:$bg-color;
+    text-transform: uppercase;
+}
+.hero-button {
+    display: block;
+    padding: 10px 32px;
+    margin: 0 auto;
+    font-weight:700;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color:$bg-color;
+    background-color: $color-hover;
+    cursor: pointer;
+    border-radius: 4px;
+}
