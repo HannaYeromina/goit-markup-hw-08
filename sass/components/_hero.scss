@@ -4,8 +4,8 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/hero@1x.jpg);
-    max-width: 480px;
+        url(../images/hero@2x.jpg);
+    max-width: 1600px;
     height: 400px;
     margin: 0px auto;
     padding: 118px 0;
@@ -16,16 +16,14 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/hero@2x.jpg);
-    max-width: 768px;
+        url(../images/hero@1x.jpg);
     }
     @media (min-width:1200px) {
         background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/hero@3x.jpg);
-    max-width: 1200px;
+        url(../images/hero@1x.jpg);
     height: 600px;
     padding: 200px 0;
     }
