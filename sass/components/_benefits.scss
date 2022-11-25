@@ -1,6 +1,9 @@
 .benefits {
     padding-top: 60px;
 }
+.benefits-card {
+    margin-bottom: 60px;
+}
 
 .benefits-card__box {
     display: flex;
@@ -38,6 +41,12 @@
     letter-spacing: 0.03em;
     color: $color-contact;
 }
+.benefits-card__list {
+    margin-bottom: 30px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
 @media (min-width:768px) and (max-width:1200px) {
     .benefits-card {
         display: flex;
@@ -45,6 +54,7 @@
     }
     .benefits-card__list {
         flex: 1;
+        margin-bottom: 0;
     }
     .benefits-card .benefits-card__list:nth-child(odd) {
     margin-right: 30px;
@@ -54,11 +64,15 @@
     .benefits {
         padding-top: 94px;
     }
+    .benefits-card__list {
+        margin-bottom: 0;
+    }
     .benefits-card .benefits-card__list:not(:last-child) {
     margin-right: 30px;
     }
     .benefits-card{
     display: flex;  
+    margin-bottom: 0;
     }
 }
  
