@@ -2,7 +2,7 @@
     padding-top: 60px;
 }
 .benefits-card {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .benefits-card__box {
@@ -55,7 +55,11 @@
     .benefits-card__list {
         flex: 1;
         margin-bottom: 0;
+    
+    &:nth-child(-n+2) {
+        margin-bottom: 30px;
     }
+}
     .benefits-card .benefits-card__list:nth-child(odd) {
     margin-right: 30px;
     }
@@ -72,7 +76,7 @@
     }
     .benefits-card{
     display: flex;  
-    margin-bottom: 0;
+    padding-bottom: 0;
     }
 }
  
