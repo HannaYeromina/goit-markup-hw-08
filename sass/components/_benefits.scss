@@ -1,10 +1,7 @@
 .benefits {
     padding-top: 60px;
-}
-.benefits-card {
     padding-bottom: 60px;
 }
-
 .benefits-card__box {
     display: flex;
     justify-content: center;
@@ -67,6 +64,7 @@
 @media (min-width:1200px) {
     .benefits {
         padding-top: 94px;
+        padding-bottom: 0;
     }
     .benefits-card__list {
         margin-bottom: 0;
@@ -76,7 +74,6 @@
     }
     .benefits-card{
     display: flex;  
-    padding-bottom: 0;
-    }
+   }
 }
  
